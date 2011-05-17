@@ -33,9 +33,9 @@ gem 'wirb'
 #   gem 'webrat'
 # end
 
-# group :development, :test do
-#       gem 'autotest-notification'
-# end
+group :development, :test do
+      gem 'autotest-notification'
+end
 
 group :development do
       gem 'rspec-rails'
