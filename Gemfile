@@ -24,6 +24,7 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 # gem 'aws-s3', :require => 'aws/s3'
 gem 'heroku'
 gem 'taps'
+gem 'wirb'
 
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
@@ -32,9 +33,12 @@ gem 'taps'
 #   gem 'webrat'
 # end
 
+# group :development, :test do
+#       gem 'autotest-notification'
+# end
+
 group :development do
       gem 'rspec-rails'
-      gem 'wirb'
 end
 
 group :test do
